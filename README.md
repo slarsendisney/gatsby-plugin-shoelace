@@ -16,7 +16,7 @@ It was designed in New Hampshire by Cory LaViska.
 Install via npm:
 
 ```shell
-npm install --save-dev `gatsby-plugin-shoelace
+npm install --save-dev gatsby-plugin-shoelace
 ```
 
 ## Examples of usage
