@@ -3,16 +3,9 @@
   "name": "gatsby-plugin-shoelace",
   "description": "Add shoelace.style to your gatsby site.",
   "author": "Sam Larsen-Disney <s.larsendisney@gmail.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "devDependencies": {
-    "gatsby": "^2.24.11",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0"
-  },
-  "dependencies": {
     "gatsby": "^2.24.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "react": "^16.13.1",
