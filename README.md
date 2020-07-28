@@ -25,7 +25,6 @@ Add the plugin to your site's `config.js` file:
 
 ```js
 module.exports = {
-  siteMetadata: {
   plugins: [
     `gatsby-plugin-shoelace`,
   ],
