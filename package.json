@@ -3,7 +3,7 @@
   "name": "gatsby-plugin-shoelace",
   "description": "Add shoelace.style to your gatsby site.",
   "author": "Sam Larsen-Disney <s.larsendisney@gmail.com>",
-  "version": "0.0.7",
+  "version": "0.0.33",
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.24.11",
