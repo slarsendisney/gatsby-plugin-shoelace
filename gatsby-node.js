@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 exports.onPreInit = () => {
   fs.copyFile(
     `node_modules/@shoelace-style/shoelace/dist/shoelace/shoelace.esm.js`,
