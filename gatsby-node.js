@@ -1,18 +1,9 @@
-const fs = require("fs");
+const fse = require("fs-extra");
 
 exports.onPreInit = () => {
-  fs.copyFile(
-    `node_modules/@shoelace-style/shoelace/dist/shoelace/shoelace.esm.js`,
-    `./static/shoelace.esm.js`,
-    (err) => {
-      if (err) {
-        throw err;
-      }
-    }
-  );
-  fs.copyFile(
-    `node_modules/@shoelace-style/shoelace/dist/shoelace/shoelace.css`,
-    `./static/shoelace.css`,
+  fse.copy(
+    `node_modules/@shoelace-style/shoelace/dist/shoelace`,
+    `./static/shoelace`,
     (err) => {
       if (err) {
         throw err;

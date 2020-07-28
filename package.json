@@ -1,25 +1,36 @@
 {
-  "main": "index.js",
-  "name": "gatsby-plugin-shoelace",
-  "description": "Add shoelace.style to your gatsby site.",
-  "author": "Sam Larsen-Disney <s.larsendisney@gmail.com>",
-  "version": "0.0.36",
-  "license": "MIT",
+  "author": {
+    "name": "Sam Larsen-Disney",
+    "email": "s.larsendisney@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/slarsendisney/gatsby-plugin-shoelace/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "@shoelace-style/shoelace": "^2.0.0-beta.9",
+    "@shoelace-style/shoelace": "^2.0.0-beta.8",
     "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
     "gatsby": "^2.24.11",
+    "gatsby-plugin-load-script": "^1.1.0",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
   },
+  "deprecated": false,
+  "description": "Add shoelace.style to your gatsby site.",
+  "homepage": "https://github.com/slarsendisney/gatsby-plugin-shoelace#readme",
   "keywords": [
     "gatsby",
     "gatsby-plugin"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gatsby-plugin-shoelace",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slarsendisney/gatsby-plugin-shoelace.git"
-  }
+  },
+  "version": "0.0.38"
 }
