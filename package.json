@@ -11,7 +11,7 @@
     "@shoelace-style/shoelace": "^2.0.0-beta.8",
     "fs": "0.0.1-security",
     "fs-extra": "^9.0.1",
-    "gatsby": "^2.24.11",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-load-script": "^1.1.0",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "react": "^16.13.1",
